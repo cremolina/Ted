@@ -1,0 +1,42 @@
+*{
+	font-family: Helvetica;
+}
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+ul{
+	height: 50px;
+	margin: none;
+}
+li{
+	display: inline-block;
+	padding-left: 10px;
+}
+#navBar{
+	background-color: #08063E;
+	opacity: 0.75;
+	height: 50px;
+	width: 1200px;
+	padding-bottom: 10px;
+}
+#tedLogo{
+	padding: 18px;
+}
+#leftNav{
+	float: right;
+	height: 50px;
+}
+#login{
+	border-left: 1px #999 solid;
+}
+#search{
+	padding-right: 5px;
+	border-left: 1px #999999 solid;
+}
+#headerMain{
+	height: 444px;
+	width: 1200px;
+	background-image: url("file://PATH-TO/blue-back.jpg");
+}
