@@ -1,5 +1,6 @@
 *{
 	font-family: Helvetica;
+	margin: auto;
 }
 a{
 	text-decoration: none;
@@ -13,19 +14,22 @@ ul{
 li{
 	display: inline-block;
 	padding-left: 10px;
+	position: relative;
 }
 #navBar{
-	background-color: #08063E;
-	opacity: 0.75;
+	background-color: black;
 	height: 50px;
-	width: 1200px;
+	max-width: 100%;
 	padding-bottom: 10px;
+	font-size: 13px;
 }
 #tedLogo{
 	padding: 18px;
+	position: relative;
 }
 #leftNav{
 	float: right;
+	margin-right: 15px;
 	height: 50px;
 }
 #login{
@@ -33,10 +37,34 @@ li{
 }
 #search{
 	padding-right: 5px;
-	border-left: 1px #999999 solid;
+	border-left: 1px #999 solid;
 }
 #headerMain{
 	height: 444px;
-	width: 1200px;
-	background-image: url("file://PATH-TO/blue-back.jpg");
+	background-image: url(https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/3835fef688def1e83ec53df17421b3c7092b0366_2880x1620.jpg?blur=0%2C10&cb=20160613&quality=63&u=&w=150);
+	max-width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+#mainLeft{
+	float: left;
+	padding: 15px;
+	margin-top: 55px;
+}
+#mainRight{
+	float: right;
+	padding: 65px;
+}
+#imgTwo{
+	padding: 30px;
+}
+#scrolls{
+
+}
+#scrollTop{
+	margin-top: 80px;
+	position: relative;
+}
+#scrollBottom{
+	margin-top: 150px;
 }
