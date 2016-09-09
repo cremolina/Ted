@@ -1,5 +1,6 @@
 *{
 	font-family: Helvetica;
+	font-weight: 700;
 	margin: auto;
 }
 a{
@@ -24,12 +25,26 @@ li{
 	font-size: 13px;
 }
 #tedLogo{
-	padding: 18px;
-	position: relative;
+	position: absolute;
+	padding-top: 20px;
+	padding-left: 20px;
 }
-#leftNav{
+#ideas{
+	padding-top: 20px;
+	margin-left: 100px;
+	float: left;
+	text-transform: none;
+	font-weight: 200;
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+}
+#rightNav{
 	float: right;
 	margin-right: 15px;
+	margin-left: 15px;
+	margin-height: 50px;
+	padding-top: 10px;
 	height: 50px;
 }
 #login{
@@ -41,7 +56,7 @@ li{
 }
 #headerMain{
 	height: 444px;
-	background-image: url(https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/3835fef688def1e83ec53df17421b3c7092b0366_2880x1620.jpg?blur=0%2C10&cb=20160613&quality=63&u=&w=150);
+	background-image: url(../img/blue-back.jpg);
 	max-width: 100%;
 	background-position: center;
 	background-size: cover;
@@ -49,6 +64,7 @@ li{
 #mainLeft{
 	float: left;
 	padding: 15px;
+	margin-left: 30px;
 	margin-top: 55px;
 }
 #mainRight{
